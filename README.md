@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AVORA AI
 ### Your Career. Your Potential. Your Future.
 **AI-powered Career Intelligence & Growth Platform**
@@ -31,3 +32,7 @@ See `SETUP.md`. Use Python 3.10–3.12 and Node.js 20.19+ or 22.12+.
 - Skill evidence analysis checks text mentions only; it does not verify GitHub repositories, certificates or proficiency.
 - Career simulation compares skill coverage against sample role requirements; it does not predict future outcomes.
 - For public deployment, configure a strong secret, HTTPS, secure token storage, rate limiting, file scanning, database migrations, backups and a security review.
+=======
+# AVORA-AI
+AI-Powered Career Intelligence Platform | Resume Analysis, Career Matching and Skill Gap Recommendations
+>>>>>>> a71495528b2e6ba76f58f424fa1c12dd4a6bc7d2
