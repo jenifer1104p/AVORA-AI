@@ -1,0 +1,8 @@
+[
+ {"id":"JOB-001","title":"Java Backend Developer","company":"SampleTech","location":"Chennai / Hybrid","type":"Full-time","skills":["Java","Spring Boot","REST APIs","MySQL","Git"],"description":"Build and maintain Java backend services, REST APIs and database integrations."},
+ {"id":"JOB-002","title":"Frontend Developer","company":"PixelWorks","location":"Remote","type":"Full-time","skills":["React","JavaScript","HTML","CSS","Vite"],"description":"Develop accessible responsive web interfaces using React and modern JavaScript."},
+ {"id":"JOB-003","title":"Machine Learning Engineer","company":"DataForge","location":"Bengaluru / Hybrid","type":"Full-time","skills":["Python","scikit-learn","Pandas","NLP","Model Evaluation"],"description":"Prepare datasets, train models and evaluate machine learning systems."},
+ {"id":"JOB-004","title":"Data Analyst","company":"InsightHub","location":"Chennai","type":"Full-time","skills":["SQL","Python","Excel","Power BI","Statistics"],"description":"Analyze business data and build dashboards and reports."},
+ {"id":"JOB-005","title":"Python Backend Developer","company":"CloudNest","location":"Remote","type":"Full-time","skills":["Python","Flask","PostgreSQL","REST APIs","Git"],"description":"Create Python APIs and database-backed web services."},
+ {"id":"JOB-006","title":"Network Engineer","company":"NetCore","location":"Kochi / On-site","type":"Full-time","skills":["Cisco","Routing","Switching","TCP/IP","Firewalls"],"description":"Maintain enterprise networks, troubleshoot connectivity and manage network devices."}
+]
