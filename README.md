@@ -42,6 +42,26 @@ The platform transforms resume information into actionable career insights throu
 | 🔐 User Authentication | Account access using JWT authentication |
 | 📚 Analysis History | Access previous resume analysis results |
 
+## 📸 Application Screenshots
+
+Explore the AVORA AI interface and its main features.
+
+### 🏠 Home Page
+
+![AVORA AI Home Page](Screenshots/Home.png)
+
+### 🎯 Career Match Explorer
+
+![AVORA AI Career Match](Screenshots/career-match.png)
+
+### 📄 Resume Intelligence
+
+![AVORA AI Resume Intelligence](Screenshots/resume-intelligence.png)
+
+### ✨ Features Dashboard
+
+![AVORA AI Features Dashboard](Screenshots/features.png)
+
 ## 🛠️ Technology Stack
 
 ### Frontend
@@ -97,12 +117,12 @@ flowchart TD
     E --> H[Job Matching and Skill Gap Analysis]
     E --> I[Learning Roadmap]
     D --> J[(PostgreSQL Database)]
-    F --> C
-    G --> C
-    H --> C
-    I --> C
+    F --> K[Career Intelligence Results]
+    G --> K
+    H --> K
+    I --> K
+    K --> C
     C --> B
-    B --> K[Career Intelligence Dashboard]
 ```
 
 ## ⚙️ Application Workflow
@@ -126,6 +146,12 @@ flowchart TD
 
 ```text
 AVORA-AI/
+│
+├── Screenshots/
+│   ├── Home.png
+│   ├── career-match.png
+│   ├── features.png
+│   └── resume-intelligence.png
 │
 ├── backend/
 │   ├── ml_engine/
