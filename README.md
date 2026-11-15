@@ -1,18 +1,21 @@
- 
-<div align="center">
-
 # ✨ AVORA AI
-
 ### Your Career. Your Potential. Your Future.
+
+<div align="center">
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=650&lines=AI-Powered+Career+Intelligence;Discover+Your+Career+Path;Analyze.+Improve.+Grow.)
 
-**An AI-powered Career Intelligence & Growth Platform**
+**An AI-Powered Career Intelligence & Growth Platform**
 
-[![GitHub](https://img.shields.io/badge/GitHub-AVORA--AI-181717?style=for-the-badge&logo=github)](https://github.com/jenifer1104p/AVORA-AI)
-[![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Python](https://img.shields.io/badge/Backend-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Flask](https://img.shields.io/badge/API-Flask-black?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com/)
+[![Live Application](https://img.shields.io/badge/Live%20Application-AVORA%20AI-8B5CF6?style=for-the-badge&logo=netlify&logoColor=white)](https://avoraai.netlify.app/)
+[![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://avora-ai-backend.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/jenifer1104p/AVORA-AI)
+
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Backend-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/API-Flask-black?style=flat-square&logo=flask)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
 </div>
 
@@ -20,28 +23,26 @@
 
 ## 🚀 About AVORA AI
 
-AVORA AI is an intelligent career development platform that combines **Machine Learning, Natural Language Processing and career analytics** to help users understand their skills, explore career opportunities and build structured learning plans.
+AVORA AI is an intelligent career development platform that combines **Machine Learning, Natural Language Processing, and career analytics** to help users understand their skills, explore career opportunities, and build structured learning plans.
 
-It transforms resume information into actionable career insights through explainable ML techniques and structured recommendations.
+The platform transforms resume information into actionable career insights through machine learning techniques, skill analysis, and structured recommendations.
 
 ## ✨ Key Features
 
 | Feature | Description |
 |---|---|
-| 📄 Resume Intelligence | Upload PDF, DOCX or TXT resumes for analysis |
-| 🎯 Career Match Explorer | Predict suitable career roles using ML |
+| 📄 Resume Intelligence | Upload PDF, DOCX, or TXT resumes for analysis |
+| 🎯 Career Match Explorer | Predict suitable career roles using machine learning |
 | 🧠 Skill Extraction | Identify technical skills from resume content |
 | 📊 Resume-to-Job Matching | Compare resumes with sample job requirements |
-| 🔍 Skill Gap Analysis | Discover missing skills for a target role |
+| 🔍 Skill Gap Analysis | Identify missing skills for a target role |
 | 🗺️ Learning Roadmap | Generate a structured four-week learning plan |
 | 👤 Career Profile | Explore career profile and clustering insights |
 | 🔄 Career Simulator | Compare skill coverage across sample career roles |
-| 🔐 User Authentication | Secure account access with JWT authentication |
+| 🔐 User Authentication | Account access using JWT authentication |
 | 📚 Analysis History | Access previous resume analysis results |
 
 ## 🛠️ Technology Stack
-
-<div align="center">
 
 ### Frontend
 
@@ -56,25 +57,53 @@ It transforms resume information into actionable career insights through explain
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask)
 ![REST API](https://img.shields.io/badge/REST-API-7952B3?style=flat-square)
 
-### Machine Learning & Database
+### Machine Learning & Data Processing
 
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+### Database & Deployment
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-
-</div>
+![Netlify](https://img.shields.io/badge/Frontend-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![Render](https://img.shields.io/badge/Backend-Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 
 ## 🧠 Machine Learning Approach
 
-AVORA AI uses multiple analytical techniques:
+AVORA AI uses multiple analytical techniques to generate career-related insights.
 
-- **TF-IDF:** Converts resume and job descriptions into numerical text representations.
-- **Cosine Similarity:** Measures textual similarity between resumes and sample job requirements.
-- **Logistic Regression:** Classifies profiles into career-role categories.
-- **K-Means Clustering:** Groups career profiles based on extracted features.
-- **Rule-Based Analysis:** Supports skill-gap identification and learning roadmap generation.
+| Technique | Purpose |
+|---|---|
+| TF-IDF | Converts resume and job descriptions into numerical text representations |
+| Cosine Similarity | Measures textual similarity between resumes and sample job requirements |
+| Logistic Regression | Classifies profiles into career-role categories |
+| K-Means Clustering | Groups career profiles based on extracted features |
+| Rule-Based Analysis | Supports skill-gap identification and learning roadmap generation |
+
+These techniques provide exploratory decision-support insights rather than guaranteed career or employment predictions.
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    A[User] --> B[React Frontend]
+    B --> C[Flask REST API]
+    C --> D[Authentication and Application Services]
+    C --> E[Machine Learning Engine]
+    E --> F[Resume Analysis]
+    E --> G[Career Role Prediction]
+    E --> H[Job Matching and Skill Gap Analysis]
+    E --> I[Learning Roadmap]
+    D --> J[(PostgreSQL Database)]
+    F --> C
+    G --> C
+    H --> C
+    I --> C
+    C --> B
+    B --> K[Career Intelligence Dashboard]
+```
 
 ## ⚙️ Application Workflow
 
@@ -129,8 +158,8 @@ AVORA-AI/
 
 ### Prerequisites
 
-- Python 3.10–3.12
-- Node.js 20.19+ or 22.12+
+- Python 3.11
+- Node.js
 - npm
 - Git
 
@@ -148,7 +177,7 @@ cd backend
 python -m venv .venv
 ```
 
-Activate the virtual environment:
+Activate the virtual environment.
 
 **Windows:**
 
@@ -162,7 +191,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Configure your environment variables using `.env.example` and follow the backend setup instructions.
+Configure the required environment variables according to your backend configuration.
 
 Train the ML models:
 
@@ -170,7 +199,7 @@ Train the ML models:
 python -m ml_engine.train
 ```
 
-Start Flask:
+Start the Flask backend:
 
 ```bash
 python run.py
@@ -183,6 +212,17 @@ Open another terminal:
 ```bash
 cd frontend
 npm install
+```
+
+Create a frontend environment configuration with:
+
+```env
+VITE_API_URL=http://127.0.0.1:5000
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
@@ -196,7 +236,18 @@ http://localhost:5173
 
 Create an account and explore the career intelligence features.
 
-For complete configuration details, see **[SETUP.md](SETUP.md)**.
+For complete configuration details, refer to [SETUP.md](SETUP.md).
+
+## 🌐 Live Deployment
+
+| Component | Platform | Link |
+|---|---|---|
+| Frontend | Netlify | [Open AVORA AI](https://avoraai.netlify.app/) |
+| Backend API | Render | [Open Backend](https://avora-ai-backend.onrender.com) |
+| Backend Health | Render | [Check API Health](https://avora-ai-backend.onrender.com/api/health) |
+| Source Code | GitHub | [View Repository](https://github.com/jenifer1104p/AVORA-AI) |
+
+**Backend health check:** The API health endpoint reports service status, database connectivity, and ML artifact availability.
 
 ## ⚠️ Project Scope & Limitations
 
@@ -204,7 +255,7 @@ For complete configuration details, see **[SETUP.md](SETUP.md)**.
 - ML predictions are exploratory decision-support outputs, not validated hiring or employability scores.
 - Skill extraction identifies text mentions; it does not verify actual proficiency or certificates.
 - Career simulations compare skills against sample role requirements and do not predict future employment outcomes.
-- Public deployment requires additional security hardening, including HTTPS, secure token storage, rate limiting, file scanning and database backups.
+- Public deployment requires ongoing security hardening, including HTTPS, secure token storage, rate limiting, file scanning, and database backups.
 
 ## 🔮 Future Enhancements
 
@@ -213,6 +264,7 @@ For complete configuration details, see **[SETUP.md](SETUP.md)**.
 - Interactive skill development tracking.
 - Improved career recommendation models.
 - Enhanced career analytics dashboard.
+- More personalized learning recommendations.
 
 ## 👩‍💻 Developer
 
@@ -231,6 +283,6 @@ Software Developer | Java Full Stack | AI & Machine Learning Enthusiast
 
 **AVORA AI — Building Smarter Career Journeys.**
 
-<sub>Designed and developed with curiosity, creativity and technology.</sub>
+<sub>Designed and developed with curiosity, creativity, and technology.</sub>
 
 </div>
